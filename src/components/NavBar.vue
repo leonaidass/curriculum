@@ -2,7 +2,7 @@
     <div>
          <v-app-bar style="padding:0px 90px" color="white" app light elevation="6" elevate-on-scroll>
         <v-toolbar-title>
-          WebSite with Vuetify
+          WebSite 100% Vuetify
         </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-list class="d-flex aling-center">
@@ -41,5 +41,11 @@
 </script>
 
 <style lang="scss" scoped>
+.v-toolbar__title{
+  color: rgb(76 175 80);
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: bold;
+}
 
 </style>

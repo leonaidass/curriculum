@@ -4,7 +4,8 @@
       <NavBar/>
 
       <v-main>
-        
+         <Hero/>
+         <SobreNosotros/>
       </v-main>
 
 
@@ -14,10 +15,14 @@
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue"
+import NavBar from "./components/NavBar.vue";
+import Hero from "./components/Hero.vue";
+import SobreNosotros from "./components/SobreNosotros.vue";
   export default {
     components:{
-      NavBar
+      NavBar,
+      Hero,
+      SobreNosotros
     }
   }
 </script>
