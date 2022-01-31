@@ -6,6 +6,11 @@
       <v-main>
          <Hero/>
          <SobreNosotros/>
+         <Portafolio/>
+         <Proyectos/>
+         <Galeria/>
+         <Contacto/>
+         <Footer/>
       </v-main>
 
 
@@ -18,11 +23,21 @@
 import NavBar from "./components/NavBar.vue";
 import Hero from "./components/Hero.vue";
 import SobreNosotros from "./components/SobreNosotros.vue";
+import Portafolio from "./components/Portafolio.vue";
+import Proyectos from "./components/Proyectos.vue";
+import Galeria from "./components/Galeria.vue";
+import Contacto from "./components/Contacto.vue";
+import Footer from "./components/Footer.vue";
   export default {
     components:{
       NavBar,
       Hero,
-      SobreNosotros
+      SobreNosotros,
+      Portafolio,
+      Proyectos,
+      Galeria,
+      Contacto,
+      Footer
     }
   }
 </script>

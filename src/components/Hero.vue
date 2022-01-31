@@ -3,7 +3,7 @@
        <v-container class="pt-15">
            <v-row>
                <v-col lg="6" cols="12">
-                   <h2 class="intro ">Bienvenidos a mi Portafolio con Vuetify</h2>
+                   <h2 class="intro d-none d-sm-flex">Bienvenidos a mi Portafolio con Vuetify</h2>
                    <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                      Sequi, quidem. Consequatur repellendus, veritatis aliquam dolorum quia asperiores,
                       accusantium facilis eveniet dignissimos ratione autem voluptatum 

@@ -40,7 +40,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 .v-toolbar__title{
   color: rgb(76 175 80);
   font-size: 35px;

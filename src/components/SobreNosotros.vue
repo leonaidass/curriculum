@@ -2,8 +2,8 @@
     <div>
     <v-container>
        <v-row>
-           <v-col lg="6">
-          <img src="../assets/grupo.png" alt="">
+           <v-col class="d-none d-sm-flex" md="6">
+          <img id="grupo" src="../assets/grupo.png" alt="">
            </v-col>
            <v-col lg="6">
          <v-subheader class="text-h4">Sobre Nosotros</v-subheader>
@@ -41,5 +41,10 @@
 </script>
 
 <style lang="scss" scoped>
-
+#grupo{
+   
+    width: 100%;
+    height: 100%;
+    
+}
 </style>
