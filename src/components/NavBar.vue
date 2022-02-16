@@ -2,10 +2,10 @@
     <div>
          <v-app-bar style="padding:0px 90px" color="white" app light elevation="6" elevate-on-scroll>
         <v-toolbar-title>
-          WebSite 100% Vuetify
+          Realizado 100% Vuetify
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <v-list class="d-flex aling-center">
+        <!-- <v-list class="d-flex aling-center">
           <v-list-item link v-for="(item,i) in menusItem" :key="i" :to="menusItem.ruta">
             <v-list-item-title>
               {{item.titulo}}
@@ -17,7 +17,7 @@
             <v-btn outlined color="success">
               Bienvenidos
             </v-btn>
-        </v-list>
+        </v-list> -->
       </v-app-bar>
     </div>
 </template>

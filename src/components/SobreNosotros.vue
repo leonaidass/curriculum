@@ -2,7 +2,7 @@
     <div>
     <v-container>
        <v-row>
-           <v-col class="d-none d-sm-flex" md="6">
+           <v-col cols="12" md="6">
           <img id="grupo" src="../assets/grupo.png" alt="">
            </v-col>
            <v-col lg="6">

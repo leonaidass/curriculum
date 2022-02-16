@@ -8,7 +8,7 @@
                       <!-- <v-btn color="success" rounded>Get Started</v-btn>
                       <v-btn color="indigo" rounded class="white--text ml-15"><v-icon>mdi-play-circle</v-icon> Ver Video</v-btn> -->
                </v-col>
-               <v-col  class="d-none d-sm-flex" lg="6">
+               <v-col   lg="6" cols="12">
                   <img  width="50%" height="80%" style="margin-left:80px" src="../assets/yo.png">
                </v-col>
            </v-row>

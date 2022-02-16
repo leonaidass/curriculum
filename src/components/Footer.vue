@@ -3,26 +3,26 @@
     <v-col lg="12">
       <v-row justify="center">
         <v-col lg="4" class="text-center">
-          <v-toolbar-title >Web Vuetify</v-toolbar-title>
+          <v-toolbar-title >Leonardo Esquivel 2022</v-toolbar-title>
           <v-card-text>
+
+           
+
           <v-btn
-            v-for="icon in icons"
-            :key="icon"
+            v-for="(icon,i) in icons"
+            :key="i"
             class="mx-4 white--black"
             icon
+            @click="link(icon.dir)"
+            
           >
             <v-icon size="24px">
-              {{ icon }}
+              {{ icon.icon }}
             </v-icon>
           </v-btn>
         </v-card-text>
-        <v-subheader>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas dolores laborum adipisci officia error, vero deleniti itaque necessitatibus suscipit enim.</v-subheader>
-        <v-form class="mt-4">
-             <v-text-field label="Email" outlined dense/>
-             <v-btn color="success" rounded>Suscribite</v-btn>
-
-            
-        </v-form>
+        
+        
         </v-col>
       
       </v-row>
@@ -35,12 +35,23 @@
   export default {
     data: () => ({
       icons: [
-        'mdi-facebook',
-        'mdi-twitter',
-        'mdi-linkedin',
-        'mdi-instagram',
+
+        {icon:'mdi-facebook', dir:'https://www.facebook.com/profile.php?id=100009577582134'},
+        {icon:'mdi-github', dir:'https://github.com/leonaidass'},
+        {icon:'mdi-linkedin', dir:'https://www.linkedin.com/in/leonardo-marino-esquivel-91302611a/'},
+        
+        
+        
+        
+        
       ],
     }),
+
+    methods:{
+      link(dir){
+             location.href =dir;
+      }
+    }
   }
 </script>
 
