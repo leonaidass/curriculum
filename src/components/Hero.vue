@@ -3,13 +3,10 @@
        <v-container class="pt-15">
            <v-row>
                <v-col lg="6" cols="12">
-                   <h2 class="intro d-none d-sm-flex">Bienvenidos a mi Portafolio con Vuetify</h2>
-                   <p class="descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                     Sequi, quidem. Consequatur repellendus, veritatis aliquam dolorum quia asperiores,
-                      accusantium facilis eveniet dignissimos ratione autem voluptatum 
-                      mollitia quis odio! Aspernatur, dolor hic!</p>
-                      <v-btn color="success" rounded>Get Started</v-btn>
-                      <v-btn color="indigo" rounded class="white--text ml-15"><v-icon>mdi-play-circle</v-icon> Ver Video</v-btn>
+                   <h2 class="intro d-none d-sm-flex">Bienvenidos a mi Curriculum</h2>
+                   <p class="descripcion">Me llamo Leonardo Esquivel soy un apasionado por la tecnología y los desafíos, 100% autodidacta. Actualmente de desempeño como desarrollador full stack para la policía de San Juan </p>
+                      <!-- <v-btn color="success" rounded>Get Started</v-btn>
+                      <v-btn color="indigo" rounded class="white--text ml-15"><v-icon>mdi-play-circle</v-icon> Ver Video</v-btn> -->
                </v-col>
                <v-col  class="d-none d-sm-flex" lg="6">
                   <img  width="50%" height="80%" style="margin-left:80px" src="../assets/yo.png">
