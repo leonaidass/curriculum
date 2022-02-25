@@ -9,7 +9,8 @@
                       <v-btn color="indigo" rounded class="white--text ml-15"><v-icon>mdi-play-circle</v-icon> Ver Video</v-btn> -->
                </v-col>
                <v-col   lg="6" cols="12">
-                  <img  width="50%" height="80%" style="margin-left:80px" src="../assets/yo.png">
+                  <!-- <img  width="50%" height="80%" style="margin-left:80px" src="../assets/yo.png"> -->
+                  <lottie :options="defaultOptions" :width="500" :height="500" />
                </v-col>
            </v-row>
            <v-divider class="d-block d-sm-none"></v-divider>
@@ -18,8 +19,15 @@
 </template>
 
 <script>
+import * as animationData from '../assets/animacion.json'
     export default {
-        
+        data() {
+           return {
+               defaultOptions:{
+                   animationData:animationData.default
+               }
+           }
+       },
     }
 </script>
 
