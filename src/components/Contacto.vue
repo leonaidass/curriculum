@@ -73,7 +73,7 @@ export default {
       emailRules: [
         (v) => !!v || "Por favor complete este campo",
         (v) =>
-          /.+@.+.+.com/.test(v) ||
+          /.+@.+/.test(v) ||
           "Por favor complete con una dirección de e-mail",
       ],
     };

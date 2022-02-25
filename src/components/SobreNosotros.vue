@@ -2,7 +2,7 @@
     <div>
     <v-container>
        <v-row>
-           <v-col cols="12" md="6">
+           <v-col cols="12" md="6" class="d-none d-sm-flex">
           <img id="grupo" src="../assets/grupo.png" alt="">
            </v-col>
            <v-col lg="6">
@@ -26,6 +26,10 @@
                  </v-list-item>
              
              </v-list>
+           </v-col>
+
+           <v-col cols="12" md="6" class="d-block d-sm-none">
+          <img id="grupo" src="../assets/grupo.png" alt="">
            </v-col>
        </v-row>
     </v-container>

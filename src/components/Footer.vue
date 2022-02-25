@@ -3,7 +3,7 @@
     <v-col lg="12">
       <v-row justify="center">
         <v-col lg="4" class="text-center">
-          <v-toolbar-title >Leonardo Esquivel 2022</v-toolbar-title>
+          <v-toolbar-title>Leonardo Esquivel 2022</v-toolbar-title>
           <v-card-text>
 
            

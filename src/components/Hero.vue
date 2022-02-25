@@ -12,6 +12,7 @@
                   <img  width="50%" height="80%" style="margin-left:80px" src="../assets/yo.png">
                </v-col>
            </v-row>
+           <v-divider class="d-block d-sm-none"></v-divider>
        </v-container>
     </div>
 </template>
@@ -22,7 +23,7 @@
     }
 </script>
 
-<style lang="scss" scoped>
+<style >
 h2.intro{
     font-size: 80px;
     font-weight: bold;

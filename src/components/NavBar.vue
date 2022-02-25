@@ -1,24 +1,60 @@
 <template>
     <div>
-         <v-app-bar style="padding:0px 90px" color="white" app light elevation="6" elevate-on-scroll>
+         <v-app-bar style="padding:0px 10px" color="white" app light elevation="6" elevate-on-scroll>
         <v-toolbar-title>
-          Realizado 100% Vuetify
+          CV Leonardo Esquivel 2022
         </v-toolbar-title>
         <v-spacer></v-spacer>
-        <!-- <v-list class="d-flex aling-center">
+        <!-- <v-list class=" d-none d-sm-flex">
           <v-list-item link v-for="(item,i) in menusItem" :key="i" :to="menusItem.ruta">
             <v-list-item-title>
               {{item.titulo}}
             </v-list-item-title>
           </v-list-item>
-          <v-btn text>
-            <v-icon>mdi-magnify</v-icon>
-            </v-btn>
-            <v-btn outlined color="success">
-              Bienvenidos
-            </v-btn>
+         
+            
         </v-list> -->
+
+        <v-app-bar-nav-icon @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
+
+        
+
+
       </v-app-bar>
+      <v-navigation-drawer
+      app
+      v-model="drawer"
+      
+      temporary
+    >
+      <v-list-item >
+        
+
+        <v-list-item-content>
+          <v-list-item-title>Menu</v-list-item-title>
+        </v-list-item-content>
+      </v-list-item>
+
+      <v-divider></v-divider>
+
+      <v-list dense>
+        <v-list-item
+        
+          v-for="item in menusItem"
+          :key="item.titulo"
+          link
+         
+        >
+          <v-list-item-icon>
+            <v-icon>{{ item.icon }}</v-icon>
+          </v-list-item-icon>
+
+          <v-list-item-content>
+            <v-list-item-title>{{ item.titulo }}</v-list-item-title>
+          </v-list-item-content>
+        </v-list-item>
+      </v-list>
+    </v-navigation-drawer>
     </div>
 </template>
 
@@ -26,24 +62,28 @@
     export default {
         data() {
             return {
+              drawer: null,
                 menusItem:[
-          {titulo:'Inicio', ruta:'home'},
-          {titulo:'Sobre Nosotros', ruta:'nosotros'},
-          {titulo:'Portafolio', ruta:'portafolio'},
-          {titulo:'Proyecto', ruta:'proyecto'},
-          {titulo:'Galeria', ruta:'galeria'},
-          {titulo:'Contacto', ruta:'contacto'}
+          {titulo:'Inicio', ruta:'home', icon:'mdi-home' },
+          {titulo:'Sobre Mi', ruta:'mi',icon:'mdi-account-details'},
+          {titulo:'Portafolio', ruta:'portafolio',icon:'mdi-briefcase'},
+          {titulo:'En Estudio', ruta:'proyecto',icon:'mdi-application-edit'},
+          {titulo:'Contacto', ruta:'contacto',icon:'mdi-email-edit'}
         ]
       
             }
         },
+        methods:{
+          enviar(){
+            
+          }
+        }
     }
 </script>
 
-<style lang="scss">
+<style>
 .v-toolbar__title{
   color: rgb(76 175 80);
-  font-size: 35px;
   font-family: cursive;
   font-weight: bold;
 }
