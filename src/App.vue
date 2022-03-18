@@ -5,7 +5,7 @@
 
       <v-main>
          <Hero/>
-         <SobreNosotros/>
+         <SobreMi/>
          <Portafolio/>
          <Proyectos/>
          <Contacto/>
@@ -21,7 +21,7 @@
 <script>
 import NavBar from "./components/NavBar.vue";
 import Hero from "./components/Hero.vue";
-import SobreNosotros from "./components/SobreNosotros.vue";
+import SobreMi from "./components/SobreMi.vue";
 import Portafolio from "./components/Portafolio.vue";
 import Proyectos from "./components/Proyectos.vue";
 import Contacto from "./components/Contacto.vue";
@@ -30,7 +30,7 @@ import Footer from "./components/Footer.vue";
     components:{
       NavBar,
       Hero,
-      SobreNosotros,
+      SobreMi,
       Portafolio,
       Proyectos,
       Contacto,

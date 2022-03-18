@@ -5,8 +5,8 @@
         <v-subheader class="text-h4 justify-center">Contacto</v-subheader>
       </v-col>
       <v-col lg="6" cols="12">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.3431955498936!2d-68.52338788530209!3d-31.542194709503796!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816a9c2fa93fef%3A0xb996a56a6adc17ed!2sAv.%20Rioja%20Sur%20685%2C%20J5402EKG%20San%20Juan!5e0!3m2!1ses-419!2sar!4v1644687430437!5m2!1ses-419!2sar"
+          <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54411.608476972564!2d-68.5676962743409!3d-31.531697570133552!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96814029a33cd497%3A0xbff3a3a0233cfcb3!2sSan%20Juan%2C%20San%20Juan%20Province!5e0!3m2!1sen!2sar!4v1647625919054!5m2!1sen!2sar"
           width="100%"
           height="100%"
           style="border: 0"
@@ -73,8 +73,7 @@ export default {
       emailRules: [
         (v) => !!v || "Por favor complete este campo",
         (v) =>
-          /.+@.+/.test(v) ||
-          "Por favor complete con una dirección de e-mail",
+          /.+@.+/.test(v) || "Por favor complete con una dirección de e-mail",
       ],
     };
   },
